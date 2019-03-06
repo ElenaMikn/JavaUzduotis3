@@ -1,4 +1,4 @@
-package com.elena.kotlin.kotlindemo
+package com.example.kotlindemo
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
