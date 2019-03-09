@@ -7,13 +7,19 @@ import javax.persistence.Id
 import javax.validation.constraints.NotBlank
 
 @Entity
-data class Article (
+data class DestomiDalykai (
         @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
         val id: Long = 0,
 
         @get: NotBlank
-        val title: String = "",
+        val Pavadinimas: String = "",
 
         @get: NotBlank
-        val content: String = ""
+        val Destytojas: String = "",
+
+        @get: NotBlank
+        val Aprasymas: String = "",
+
+        @get: NotBlank
+        val Semestras: String = ""
 )

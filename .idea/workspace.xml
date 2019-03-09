@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="932d3945-eda1-46cb-9a58-4aa088df43dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/KotlinDemoApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/KotlinDemoApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/controller/ArticleController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/controller/ArticleController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/controller/ArticleController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/model/Article.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/repository/ArticleRepository.kt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,51 +16,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/model/Article.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/model/DestomiDalykai.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="30" />
+            <state relative-caret-position="323">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="21" />
               <folding>
-                <element signature="e#34#218#0" expanded="true" />
+                <element signature="e#38#222#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/KotlinDemoApplication.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/controller/DestomiDalykaiController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
-              <folding>
-                <element signature="e#37#151#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/controller/ArticleController.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/repository/ArticleRepository.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="8" selection-end-column="30" />
-              <folding>
-                <element signature="e#43#196#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="387">
+              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -70,8 +42,8 @@
     <findStrings>
       <find>spring-boot</find>
       <find>repository</find>
-      <find>Article</find>
       <find>com.example.kotlindemo</find>
+      <find>Article</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,6 +60,9 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/repository/ArticleRepository.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/model/Article.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/KotlinDemoApplication.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/repository/DestomiDalykaiRepository.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/controller/DestomiDalykaiController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/model/DestomiDalykai.kt" />
       </list>
     </option>
   </component>
@@ -103,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -221,11 +195,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551807113046" />
-    <property name="last_opened_file_path" value="D:/git/kotlin-spring-boot-jpa-rest-api-demo" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551903416716" />
+    <property name="last_opened_file_path" value="D:/git/kotlin-spring-realworld-example-app" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -263,9 +238,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -292,30 +266,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/model/Article.kt</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/controller/ArticleController.kt</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/controller/ArticleController.kt</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/kotlin-demo/src/main/kotlin/com/elena/kotlin/kotlindemo/controller/ArticleController.kt" />
@@ -345,43 +295,46 @@
         <state relative-caret-position="-1010" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/model/Article.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/model/Article.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/KotlinDemoApplication.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="30" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#34#218#0" expanded="true" />
+            <element signature="e#37#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/repository/ArticleRepository.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/repository/DestomiDalykaiRepository.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="8" selection-end-column="30" />
+        <state relative-caret-position="119">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
           <folding>
             <element signature="e#43#196#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/controller/ArticleController.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/controller/ArticleController.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/repository/ArticleRepository.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/model/DestomiDalykai.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="323">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#38#222#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/KotlinDemoApplication.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/elena/kotlin/kotlindemo/controller/DestomiDalykaiController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-          <folding>
-            <element signature="e#37#151#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="387">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
         </state>
       </provider>
     </entry>
